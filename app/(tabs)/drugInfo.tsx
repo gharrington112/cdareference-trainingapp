@@ -29,17 +29,28 @@ export default function TabTwoScreen() {
         {["RX: Amoxicillin 125 mg/ 5 ml", "Disp: 150 ml", "Sig: Take 1 tsp. TID Until Gone"].map((directions, index) => 
           (<ThemedText key={index}>• {directions}</ThemedText>))}
         <ThemedText>(22 - 31 Lbs)</ThemedText>
+        {["RX: Amoxicillin 125 mg/ 5 ml", "Disp: 225 ml", "Sig: take 1.5 tsp. TID Until Gone"].map((directions, index) =>
+        (<ThemedText key={index}>• {directions}</ThemedText>))}
         <ThemedText>(32 - 42 Lbs)</ThemedText>
+        {["RX: Amoxicillin 250 mg/ 5 ml", "Disp: 150 ml", "Sig: take 1 tsp. TID Until Gone"].map((directions, index) =>
+        (<ThemedText key={index}>• {directions}</ThemedText>))}
         <ThemedText>(43 - 62 Lbs)</ThemedText>
+        {["RX: Amoxicillin 250 mg/ 5 ml", "Disp: 225 ml", "Sig: take 1.5 tsp. TID Until Gone"].map((directions, index) =>
+        (<ThemedText key={index}>• {directions}</ThemedText>))}
         <ThemedText>(63 Lbs and Over)</ThemedText>
-          {/*}
-          {["(Up to 21 Lbs)", "(22 - 31 Lbs)", "(32 - 42 Lbs)", "(43 - 62 Lbs)", "(63 Lbs and Over)"].map((weight, index) =>
-            (<ThemedText key={index}>• {weight}</ThemedText>))}
-            */}
-  
-       
+        {["RX: Amoxicillin 250 mg/ 5 ml", "Disp: 300 ml", "Sig: take 2 tsp. TID Until Gone"].map((directions, index) =>
+        (<ThemedText key={index}>• {directions}</ThemedText>))}
+        <ThemedText>OR</ThemedText>
+        {["RX: Amoxicillin 500 mg tablets", "Disp: 30 tablets", "Sig: take 1 tab TID Until Gone \n \n \n ** Avail. in 125/250 mg chewing tab"].map((directions, index) =>
+        (<ThemedText key={index}>• {directions}</ThemedText>))}
         </Collapsible>
        </ThemedView>
+      <ThemedView style = {styles.contentContainer}>
+        <ThemedText type = 'subtitle' style = {{fontSize: 16}}>If Patient Allergic to Penicillin</ThemedText>
+      </ThemedView>
+      <ThemedView style = {styles.contentContainer}>
+        
+      </ThemedView>
        
     </ParallaxScrollView>
     
