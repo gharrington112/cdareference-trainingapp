@@ -34,7 +34,7 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="explore"
+        name="drugInfo"
         options={{
           title: 'Drugs', 
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="flask.fill" color={color} />,
