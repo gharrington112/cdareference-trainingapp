@@ -18,7 +18,7 @@ export default function TabTwoScreen() {
 
       headerImage={
         <Image
-          source={require('@/assets/images/labimage.png')} // edit this image
+          source={require('@/assets/images/labimage.png')} 
           style = {styles.image}
         /> 
       }>

@@ -8,7 +8,6 @@ import { OpaqueColorValue, StyleProp, ViewStyle } from 'react-native';
 // Add your SFSymbol to MaterialIcons mappings here.
 const MAPPING = {
   // See MaterialIcons here: https://icons.expo.fyi
-  // ONLY MaterialIcons are working...
   // See SF Symbols in the SF Symbols app on Mac.
   'house.fill': 'home',
   'paperplane.fill': 'send',
@@ -16,6 +15,7 @@ const MAPPING = {
   'chevron.right': 'chevron-right',
   'flask.fill': 'science',
   'book.fill': 'book',
+  'menu.book.fill': 'menu-book',
 } as Partial<
   Record<
     import('expo-symbols').SymbolViewProps['name'],
