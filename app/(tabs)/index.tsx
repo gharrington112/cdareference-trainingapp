@@ -8,22 +8,24 @@ export default function HomeScreen() {
   return (
     <ParallaxScrollView
       headerBackgroundColor={{ light: '#A1CEDC', dark: '#1D3D47' }} // need to change color scheme to make image viewable
+
       headerImage={
         <Image
           source={require('@/assets/images/centurydentallogo2.png')}
           style={styles.reactLogo}
         />
       }>
+
       <ThemedView style={styles.titleContainer}>
         <ThemedText type="title">Welcome to the Century Dental Training & Resource App</ThemedText>
-        </ThemedView>
+      </ThemedView>
 
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Here's what you can do with this app: </ThemedText>
-        <ThemedText>1. Select the "Drugs" icon to view some commonly used drugs in dentistry {"\n"} 
-        2. Select the Resources Icon to review proper standards in dentistry as well as other review material
-      </ThemedText>
-        </ThemedView>        
+          <ThemedText>1. Select the "Drugs" icon to view some commonly used drugs in dentistry {"\n"} 
+          2. Select the Resources Icon to review proper standards in dentistry as well as other review material
+        </ThemedText>
+      </ThemedView>        
 
     </ParallaxScrollView>
   );

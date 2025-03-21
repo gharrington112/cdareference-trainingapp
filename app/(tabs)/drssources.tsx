@@ -6,7 +6,7 @@ export default function TabThreeScreen(){
 
     return (
     <ThemedView style  = {styles.titleContainer}> 
-    <ThemedText type="subtitle">This is proof this works.</ThemedText>
+      <ThemedText type="subtitle">This is proof this works.</ThemedText>
     </ThemedView>
     )
 }
