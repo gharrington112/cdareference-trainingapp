@@ -2,7 +2,7 @@
   "name": "centurydentalproject",
   "main": "expo-router/entry",
   "version": "1.0.0",
-  "homepage": "https://gitrerumu.github.io/CDA_PWA",
+  "homepage": "https://gitrerumu.github.io/gitrerumu.github.io",
   "scripts": {
     "predeploy": "npx expo export && Rename-Item -Path web-build -NewName docs",
     "deploy": "gh-pages -d docs",
