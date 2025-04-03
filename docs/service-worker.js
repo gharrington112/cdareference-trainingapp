@@ -3,9 +3,7 @@ const urlsToCache = [
   "./",
   "./index.html",
   "gitrerumu.github.io/assets/images/centurydentallogo2.png",
-  "drugInfo",
-  "drssources",
-  "test"
+  "./_expo/static/js/web/entry-2de14fa7898902e60cf49d91a28701b9.js"
 ];
 
 // Install the Service Worker
