@@ -1,7 +1,7 @@
 const CACHE_NAME = "pwa-cache-v1";
 const urlsToCache = [
-  "/",
-  "/index.html",
+  "./",
+  "./index.html",
   "/static/js/bundle.js",
   "/static/js/main.chunk.js",
   "/static/js/0.chunk.js",
