@@ -2,12 +2,8 @@ const CACHE_NAME = "pwa-cache-v1";
 const urlsToCache = [
   "./",
   "./index.html",
-  "/static/js/bundle.js",
-  "/static/js/main.chunk.js",
-  "/static/js/0.chunk.js",
-  "/static/css/main.chunk.css",
-  "/manifest.json",
-  "./assets/images/centurydentallogo2.png",
+  "./manifest.json",
+  "./assets/assets/images/centurydentallogo2.png",
 ];
 
 // Install the Service Worker
