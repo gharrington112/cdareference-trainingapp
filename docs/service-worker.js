@@ -2,7 +2,6 @@ const CACHE_NAME = "pwa-cache-v1";
 const urlsToCache = [
   "./",
   "./index.html",
-  "./manifest.json",
   "./assets/assets/images/centurydentallogo2.png",
 ];
 
