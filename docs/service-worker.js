@@ -3,9 +3,9 @@ const urlsToCache = [
   "./",
   "./index.html",
   "gitrerumu.github.io/assets/images/centurydentallogo2.png",
-  "./drugInfo",
-  "./drssources",
-  "./test"
+  "/drugInfo",
+  "/drssources",
+  "/test"
 ];
 
 // Install the Service Worker
