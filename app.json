@@ -21,7 +21,7 @@
   "favicon": "./assets/images/centurydentallogo2.png",
   "output": "web-build",
   "manifest": {
-    "start_url": "/centurydental_test/.",
+    "start_url": ".",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#000000",
