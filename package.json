@@ -2,7 +2,7 @@
   "name": "centurydentalproject",
   "main": "expo-router/entry",
   "version": "1.0.0",
-  "homepage": "https://gitrerumu.github.io/gitrerumu.github.io",
+  "homepage": "https://gharrington112.github.io/centurydentalproject",
   "scripts": {
     "predeploy": "npx expo export && Rename-Item -Path dist -NewName docs",
     "deploy": "gh-pages -d docs",
