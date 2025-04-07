@@ -2,7 +2,7 @@ const CACHE_NAME = "pwa-cache-v3";
 const urlsToCache = [
   "./",
   "./index.html",
-  "gharrington112.github.io/assets/images/"
+  "gitrerumu.github.io/assets/images/"
 ];
 
 // Install event: Cache core assets
