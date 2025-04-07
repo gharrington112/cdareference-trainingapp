@@ -2,10 +2,10 @@
   "name": "centurydentalproject",
   "main": "expo-router/entry",
   "version": "1.0.0",
-  "homepage": "https://gitrerumu.github.io/centurydental_test/.",
+  "homepage": "https://gitrerumu.github.io/centurydental_test",
   "scripts": {
     "predeploy": "npx expo export && rename dist docs",
-    "deploy": "gh-pages -d docs",
+    "deploy": "main -d docs",
     "start": "expo start",
     "reset-project": "node ./scripts/reset-project.js",
     "android": "expo start --android",
