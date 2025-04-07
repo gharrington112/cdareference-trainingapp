@@ -5,7 +5,7 @@
   "homepage": "https://gitrerumu.github.io/centurydental_test/.",
   "scripts": {
     "predeploy": "npx expo export && rename dist docs",
-    "deploy": "main -d docs",
+    "deploy": "gh-pages -d docs",
     "start": "expo start",
     "reset-project": "node ./scripts/reset-project.js",
     "android": "expo start --android",
