@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "homepage": "https://gitrerumu.github.io/centurydental_test",
   "scripts": {
-    "predeploy": "npx expo export --output docs",
-    "deploy": "gh-pages -d docs",
+    "predeploy": "npx expo export --output-dir docs",
+    "deploy": "echo 'Deploying to main branch.'",
     "start": "expo start",
     "reset-project": "node ./scripts/reset-project.js",
     "android": "expo start --android",
