@@ -2,9 +2,9 @@ const CACHE_NAME = "pwa-cache-v4";
 const urlsToCache = [
   "./",
   "./index.html",
-  "/centurydental_test/assets/images/",
+  "./assets/images/",
   "./favicon.ico",
-  "./manifest.json",
+  "centurydental_test/package.json",
 ];
 
 // Install event: Cache core assets
