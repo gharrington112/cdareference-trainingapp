@@ -1,7 +1,12 @@
-import { Image, StyleSheet, Platform } from 'react-native';
+import { StyleSheet, Image, Platform } from 'react-native';
+
+import { Collapsible } from '@/components/Collapsible';
+import { ExternalLink } from '@/components/ExternalLink';
+import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
-import ParallaxScrollView from '@/components/ParallaxScrollView';
+import { IconSymbol } from '@/components/ui/IconSymbol';
+import { ReactNode } from 'react';
 
 export default function TabThreeScreen(){
 
@@ -11,13 +16,21 @@ export default function TabThreeScreen(){
       
       headerImage={
       <Image
-        source={require('@/assets/images/Placeholder.png')} // edit this image
+        source={require('@/assets/images/resources.png')} // edit this image
         style = {styles.image}
       /> 
-    }>
-
+      }>
+      
+      <ThemedView style = {styles.titleContainer}>
+        <ThemedText type = "title">Resources for Dental Work</ThemedText>
+      </ThemedView>
+      
+      <ThemedView style = {styles.titleContainer}>
+        <ThemedText type = 'subtitle' style = {{fontSize: 26}}>Dentist's Tray</ThemedText>
+      </ThemedView>
+      
       <Image 
-        source={require('@/assets/images/Placeholder.png')} // replace image with actual dentist tray later
+        source={require('@/assets/images/dental_tray.png')} // replace image with actual dentist tray later
         style = {styles.contentImage}>
       </Image>
       </ParallaxScrollView>

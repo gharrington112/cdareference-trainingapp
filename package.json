@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "homepage": "https://gitrerumu.github.io/centurydental_test",
   "scripts": {
-    "predeploy": "npx expo export --output-dir docs && echo > docs/.nojekyll",
+    "predeploy": "npx expo export --output-dir dist && Copy-Item -Path .\\dist\\* -Destination .\\docs -Recurse",
     "deploy": "echo 'Deploying to main branch.'",
     "start": "expo start",
     "reset-project": "node ./scripts/reset-project.js",
