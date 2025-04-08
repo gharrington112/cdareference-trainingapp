@@ -5,11 +5,18 @@ import * as SplashScreen from 'expo-splash-screen';
 import { StatusBar } from 'expo-status-bar';
 import { useEffect } from 'react';
 import 'react-native-reanimated';
+import { Platform } from "react-native";
 
 import { useColorScheme } from '@/hooks/useColorScheme';
 
 // Prevent the splash screen from auto-hiding before asset loading is complete.
 SplashScreen.preventAutoHideAsync();
+
+declare global {
+  interface Window {
+    __EXPO_ROUTER_IMPORT_MODE__?: string;
+  }
+}
 
 export default function RootLayout() {
   const colorScheme = useColorScheme();
@@ -23,6 +30,12 @@ export default function RootLayout() {
     }
   }, [loaded]);
 
+  useEffect(() => {
+    if (Platform.OS === 'web') {
+      window.__EXPO_ROUTER_IMPORT_MODE__ = "static";
+    }
+  }, []);
+  
   if (!loaded) {
     return null;
   }
