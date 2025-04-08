@@ -23,6 +23,15 @@
         flex: 1;
       }
     </style>
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", function () {
+        navigator.serviceWorker.register("./service-worker.js")
+          .then((reg) => console.log("Service Worker registered!", reg))
+          .catch((err) => console.log("Service Worker registration failed:", err));
+      });
+  }
+    </script>
   <link rel="shortcut icon" href="/centurydental_test/favicon.ico" /></head>
 
   <body>
