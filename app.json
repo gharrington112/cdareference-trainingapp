@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "CenturyDentalProject",
-    "slug": "CenturyDentalProject",
+    "name": "Century Dental Project",
+    "slug": "Century Dental Project",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/centurydentallogo2.png",
@@ -51,7 +51,7 @@
     ],
     "experiments": {
       "typedRoutes": true,
-      "baseUrl": "/centurydental_test"
+      "baseUrl": "/centurydental_trainingapp"
     }
   }
 }
