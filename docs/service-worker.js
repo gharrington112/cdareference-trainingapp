@@ -2,7 +2,7 @@ const CACHE_NAME = "pwa-cache-v4";
 const urlsToCache = [
   "./",
   "./index.html",
-  "/centurydental_test/assets/assets/images/*",
+  "/centurydental_test/assets/assets/images/",
   "./favicon.ico",
   "/centurydental_test/metadata.json",
 ];
