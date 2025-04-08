@@ -20,6 +20,7 @@
     "web": {
   "favicon": "./assets/images/centurydentallogo2.png",
   "output": "web-build",
+  "basePath": "./",
   "manifest": {
     "start_url": ".",
     "display": "standalone",
