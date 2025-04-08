@@ -1,8 +1,8 @@
-const CACHE_NAME = "pwa-cache-v3";
+const CACHE_NAME = "pwa-cache-v4";
 const urlsToCache = [
   "./",
   "./index.html",
-  "gitrerumu.github.io/centurydental_test/assets/images/",
+  "/centurydental_test/assets/images/",
   "./favicon.ico",
   "./manifest.json",
 ];
