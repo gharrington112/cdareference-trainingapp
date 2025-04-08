@@ -16,7 +16,7 @@ export default function TabThreeScreen(){
       
       headerImage={
       <Image
-        source={require('@/assets/images/resources.png')} // edit this image
+        source={require('@/assets/images/resources.png')}
         style = {styles.image}
       /> 
       }>
@@ -30,7 +30,7 @@ export default function TabThreeScreen(){
       </ThemedView>
       
       <Image 
-        source={require('@/assets/images/dental_tray.jpg')} // replace image with actual dentist tray later
+        source={require('@/assets/images/dental_tray.jpg')}
         style = {styles.contentImage}>
       </Image>
       </ParallaxScrollView>
