@@ -2,7 +2,9 @@ const CACHE_NAME = "pwa-cache-v4";
 const urlsToCache = [
   "./",
   "./index.html",
-  "/centurydental_test/assets/assets/images/?:png",
+  "./assets/assets/images/centurydentallogo2.c056615264d9c4515d1c93cb0b91ccae.png",
+  "./assets/assets/images/labimage.9fd6fd3fa46784f058f9b48003faf550.png",
+  "./assets/assets/images/Placeholder.d1d6991d96aef40fcd08882bb8cde1d5.png",
   "./favicon.ico",
   "/centurydental_test/metadata.json",
 ];
