@@ -23,6 +23,15 @@
         flex: 1;
       }
     </style>
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", function () {
+        navigator.serviceWorker.register("./service-worker.js")
+          .then((reg) => console.log("Service Worker registered!", reg))
+          .catch((err) => console.log("Service Worker registration failed:", err));
+      });
+  }
+    </script>
   <link rel="shortcut icon" href="/centurydental_test/favicon.ico" /></head>
 
   <body>
@@ -32,6 +41,6 @@
     </noscript>
     <!-- The root element for your Expo app. -->
     <div id="root"></div>
-  <script src="/centurydental_test/_expo/static/js/web/entry-73ed66c092420366076f84e17b49744b.js" defer></script>
+  <script src="/centurydental_test/_expo/static/js/web/entry-61d61a5cbd08e4d835e290bbbe570084.js" defer></script>
 </body>
 </html>
