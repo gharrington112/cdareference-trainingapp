@@ -34,7 +34,7 @@
     ]
     },
     "build": {
-      "assetPrefix": "./"
+      "publicPath": "./"
     }
   },
     "plugins": [
