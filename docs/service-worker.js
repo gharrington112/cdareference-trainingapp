@@ -2,9 +2,9 @@ const CACHE_NAME = "pwa-cache-v3";
 const urlsToCache = [
   "./",
   "./index.html",
-  "gitrerumu.github.io/assets/images/",
+  "gitrerumu.github.io/centurydental_test/assets/images/",
   "./favicon.ico",
-  "./manifest.json"
+  "./manifest.json",
 ];
 
 // Install event: Cache core assets
