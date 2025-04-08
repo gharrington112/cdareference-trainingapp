@@ -8,6 +8,10 @@
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
+    "assetBundlePatterns": [
+    "**/*",
+    "node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
@@ -20,10 +24,6 @@
     "web": {
   "favicon": "./assets/images/centurydentallogo2.png",
   "output": "web-build",
-  "assetBundlePatterns": [
-  "**/*",
-  "node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/*"
-  ],
   "manifest": {
     "start_url": ".",
     "display": "standalone",
