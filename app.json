@@ -32,6 +32,9 @@
         "type": "image/png"
       }
     ]
+    },
+    "build": {
+      "assetPrefix": "./"
     }
   },
     "plugins": [
