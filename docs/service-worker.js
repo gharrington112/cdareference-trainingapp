@@ -5,6 +5,8 @@ const urlsToCache = [
   "./assets/assets/images/centurydentallogo2.c056615264d9c4515d1c93cb0b91ccae.png",
   "./assets/assets/images/labimage.9fd6fd3fa46784f058f9b48003faf550.png",
   "./assets/assets/images/Placeholder.d1d6991d96aef40fcd08882bb8cde1d5.png",
+  "./assets/assets/fonts/SpaceMono-Regular.49a79d66bdea2debf1832bf4d7aca127.ttf",
+  "./assets/assets/fonts/MaterialIcons.4e85bc9ebe07e0340c9c4fc2f6c38908.ttf",
   "./favicon.ico",
   "/centurydental_test/metadata.json",
 ];
