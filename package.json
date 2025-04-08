@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "homepage": "https://gitrerumu.github.io/centurydental_test",
   "scripts": {
-    "predeploy": "cross-env EXPO_PUBLIC_PATH=/centurydental_test/ npx expo export && Copy-Item -Path .\\dist\\* -Destination .\\docs -Recurse",
+    "predeploy": "npx expo export && Copy-Item -Path .\\dist\\* -Destination .\\docs -Recurse",
     "deploy": "echo 'Deploying to main branch.'",
     "start": "expo start",
     "reset-project": "node ./scripts/reset-project.js",
