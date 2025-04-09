@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { View, Text, TouchableOpacity, StyleSheet, ScrollView, Image } from 'react-native';
 import { useRouter } from 'expo-router';
 import { useColorScheme } from 'react-native';
+import { useTheme } from '@react-navigation/native';
 import ParallaxScrollView from '@/components/ParallaxScrollView';
 
 export const meta = {
@@ -168,7 +169,9 @@ export default function Test1Screen() {
   const [selectedOptions, setSelectedOptions] = useState(Array(questions.length).fill(null));
   const [showScore, setShowScore] = useState(false);
   const router = useRouter();
+  const { colors, dark } = useTheme();
   const colorScheme = useColorScheme();
+  const selectedColor = colorScheme === 'dark' ? '#0b6c75' : '#A1CEDC';
   const textColor = colorScheme === 'dark' ? '#FFFFFF' : '#000000';
 
 
@@ -197,7 +200,7 @@ export default function Test1Screen() {
   };
 
   return (
-    <ParallaxScrollView headerBackgroundColor={{ light: '#D0D0D0', dark: '#353636' }}>
+    <ParallaxScrollView headerBackgroundColor={{ light: '#A1CEDC', dark: '#1D3D47' }}>
       <ScrollView contentContainerStyle={styles.scrollContainer}>
         {showScore ? (
           <View>
@@ -225,7 +228,7 @@ export default function Test1Screen() {
               {q.options.map((option, optIndex) => (
                 <TouchableOpacity
                   key={optIndex}
-                  style={[styles.option, selectedOptions[index] === option && styles.selectedOption]}
+                  style={[styles.option, selectedOptions[index] === option && { backgroundColor: selectedColor }]}
                   onPress={() => handleAnswer(index, option)}
                 >
                   <Text style={{ color: textColor }}>{option}</Text>
@@ -258,11 +261,11 @@ const styles = StyleSheet.create({
   option: {
     padding: 10,
     marginVertical: 5,
-    backgroundColor: '#ddd',
+    backgroundColor: '#13b8c6',
     borderRadius: 5,
   },
   selectedOption: {
-    backgroundColor: '#bbb',
+    backgroundColor: '#0b6c75',
   },
   resultText: {
     fontSize: 20,
@@ -279,7 +282,7 @@ const styles = StyleSheet.create({
   },
   submitButton: {
     marginTop: 20,
-    backgroundColor: '#28A745',
+    backgroundColor: '#0b6c75',
     padding: 10,
     borderRadius: 5,
     alignItems: 'center',
