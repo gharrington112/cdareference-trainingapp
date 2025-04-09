@@ -58,7 +58,7 @@ const styles = StyleSheet.create({
       width: 190,
       bottom: 0,
       left: 5,
-      position: 'absolute',
+      position: 'relative',
     },
     contentImage: {
       height: 200,
