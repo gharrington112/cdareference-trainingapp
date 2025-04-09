@@ -14,12 +14,10 @@ export default function TabThreeScreen(){
     <ParallaxScrollView>
       headerBackgroundColor={{ light: '#D0D0D0', dark: '#353636' }}
       
-      headerImage={
       <Image
         source={require('@/assets/images/resources.png')}
         style = {styles.image}>
-      </Image> 
-      }
+      </Image>
       
       <ThemedView style = {styles.titleContainer}>
         <ThemedText type = "title">Resources for Dental Work</ThemedText>

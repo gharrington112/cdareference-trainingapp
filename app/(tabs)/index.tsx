@@ -9,12 +9,10 @@ export default function HomeScreen() {
     <ParallaxScrollView>
       headerBackgroundColor={{ light: '#A1CEDC', dark: '#1D3D47' }} // need to change color scheme to make image viewable
 
-      headerImage={
         <Image
           source={require('@/assets/images/centurydentallogo2.png')}
-          style={styles.reactLogo}
-        />
-      }
+          style={styles.reactLogo}>
+        </Image>
 
       <ThemedView style={styles.titleContainer}>
         <ThemedText type="title">Welcome to the Century Dental Training & Resource App</ThemedText>
