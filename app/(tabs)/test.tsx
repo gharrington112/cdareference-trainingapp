@@ -1,9 +1,6 @@
-import { Image, StyleSheet, Platform } from 'react-native';
-
+import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
+import { useRouter } from 'expo-router';
 import ParallaxScrollView from '@/components/ParallaxScrollView';
-import { ThemedText } from '@/components/ThemedText';
-import { ThemedView } from '@/components/ThemedView';
-
 
 export default function TabFourScreen() {
   const router = useRouter();
@@ -30,11 +27,25 @@ export default function TabFourScreen() {
 }
 
 const styles = StyleSheet.create({
-    image: {
-      height: 178,
-      width: 190,
-      bottom: 0,
-      left: 5,
-      position: 'absolute',
-    },
+  container: {
+    padding: 20,
+    alignItems: 'center',
+  },
+  title: {
+    fontSize: 22,
+    fontWeight: 'bold',
+    marginBottom: 20,
+  },
+  button: {
+    backgroundColor: '#007AFF',
+    padding: 15,
+    marginVertical: 10,
+    borderRadius: 5,
+    width: '80%',
+    alignItems: 'center',
+  },
+  buttonText: {
+    color: 'white',
+    fontSize: 16,
+  },
 });
