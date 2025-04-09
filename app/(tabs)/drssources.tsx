@@ -16,9 +16,9 @@ export default function TabThreeScreen(){
       
       headerImage={
       <Image
-        source={require('@/assets/images/dental_tray.jpg')}
-        style = {styles.image}
-      /> 
+        source={require('@/assets/images/resources.png')}
+        style = {styles.image}>
+      </Image> 
       }>
       
       <ThemedView style = {styles.titleContainer}>
