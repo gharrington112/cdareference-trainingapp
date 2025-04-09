@@ -16,7 +16,7 @@ export default function TabThreeScreen(){
       
       headerImage={
       <Image
-        source={require('@/assets/images/resources.png')}
+        source={require('@/assets/images/dental_tray.jpg')}
         style = {styles.image}
       /> 
       }>
