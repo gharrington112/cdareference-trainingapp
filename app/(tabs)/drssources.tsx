@@ -11,7 +11,7 @@ import { ReactNode } from 'react';
 export default function TabThreeScreen(){
 
     return (
-    <ParallaxScrollView
+    <ParallaxScrollView>
       headerBackgroundColor={{ light: '#D0D0D0', dark: '#353636' }}
       
       headerImage={
@@ -19,7 +19,7 @@ export default function TabThreeScreen(){
         source={require('@/assets/images/resources.png')}
         style = {styles.image}>
       </Image> 
-      }>
+      }
       
       <ThemedView style = {styles.titleContainer}>
         <ThemedText type = "title">Resources for Dental Work</ThemedText>
