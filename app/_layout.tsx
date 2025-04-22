@@ -48,6 +48,9 @@ export default function RootLayout() {
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
         <Stack.Screen name="+not-found" />
         <Stack.Screen name="tests/test1" options={{ headerTitle: 'Test 1', }} />
+        <Stack.Screen name="tests/test2" options={{ headerTitle: 'Test 2', }} />
+        <Stack.Screen name="tests/test3" options={{ headerTitle: 'Test 3', }} />
+        <Stack.Screen name="tests/test4" options={{ headerTitle: 'Test 4', }} />
       </Stack>
       <StatusBar style="auto" />
     </ThemeProvider>

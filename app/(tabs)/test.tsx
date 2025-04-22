@@ -3,6 +3,13 @@ import { useRouter } from 'expo-router';
 import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { useTheme } from '@react-navigation/native';
 
+export type Question = {
+  question: string;
+  options: string[];
+  answer: string;
+  imageKey: string;
+};
+
 export default function TabFourScreen() {
   const router = useRouter();
   const { colors, dark } = useTheme();
@@ -39,13 +46,13 @@ export default function TabFourScreen() {
         <TouchableOpacity style={styles.button} onPress={() => router.push('/tests/test1')}>
           <Text style={styles.buttonText}>Test 1</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.button} onPress={() => router.push('/test2')}>
+        <TouchableOpacity style={styles.button} onPress={() => router.push('/tests/test2')}>
           <Text style={styles.buttonText}>Test 2</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.button} onPress={() => router.push('/test3')}>
+        <TouchableOpacity style={styles.button} onPress={() => router.push('/tests/test3')}>
           <Text style={styles.buttonText}>Test 3</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.button} onPress={() => router.push('/test4')}>
+        <TouchableOpacity style={styles.button} onPress={() => router.push('/tests/test4')}>
           <Text style={styles.buttonText}>Test 4</Text>
         </TouchableOpacity>
       </View>
