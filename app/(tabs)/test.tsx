@@ -40,7 +40,7 @@ export default function TabFourScreen() {
   });
 
   return (
-    <ParallaxScrollView headerBackgroundColor={{ light: '#A1CEDC', dark: '#1D3D47' }}>
+    <ParallaxScrollView headerBackgroundColor={{ light: '#EEEEEE', dark: '#222222' }}>
       <View style={styles.container}>
         <Text style={styles.title}>Select a Test</Text>
         <TouchableOpacity style={styles.button} onPress={() => router.push('/tests/test1')}>
