@@ -2,7 +2,7 @@
   "name": "centurydentalproject",
   "main": "expo-router/entry",
   "version": "1.0.0",
-  "homepage": "https://gharrington112.github.io/centurydental_trainingapp",
+  "homepage": "https://gharrington112.github.io/cdareference-trainingapp/",
   "scripts": {
     "predeploy": "npx expo export && Copy-Item -Path .\\dist\\* -Destination .\\docs -Recurse",
     "deploy": "echo 'Deploying to main branch.'",
