@@ -10,7 +10,7 @@ const urlsToCache = [
   "./assets/assets/images/resources.270e72c49588b44802de4d8d7af21d93.png",
   "./assets/assets/fonts/MaterialIcons.4e85bc9ebe07e0340c9c4fc2f6c38908.ttf",
   "./favicon.ico",
-  "/centurydental_trainingapp/metadata.json",
+  "/cdareference-trainingapp/metadata.json",
 ];
 
 // Install event: Cache core assets
