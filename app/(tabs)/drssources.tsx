@@ -31,6 +31,8 @@ export default function TabThreeScreen(){
       
       <Image 
         source={require('@/assets/images/dental_tray.jpg')}
+        style = {styles.contentImage}
+        resizeMode='contain'
       />
       </Image>
       </ParallaxScrollView>
@@ -63,8 +65,8 @@ const styles = StyleSheet.create({
       position: 'absolute',
     },
     contentImage: {
-      height: 200,
-      width: 210,
+      height: undefined,
+      width: 100%,
       bottom: 0,
       left: 5,
       position: 'relative',
