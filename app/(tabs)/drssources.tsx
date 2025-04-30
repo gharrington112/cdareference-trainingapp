@@ -175,7 +175,7 @@ const styles = StyleSheet.create({
     },
     contentImage: {
       width: '100%',
-      aspectRatio: 1.5,
+      aspectRatio: 1.0,
       position: 'relative',
     },
   });
