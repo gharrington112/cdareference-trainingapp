@@ -35,6 +35,10 @@ export default function TabThreeScreen(){
         resizeMode='contain'
       />
 
+      <ThemedView style = {styles.subtitleContainer}>
+        <ThemedText type = 'subtitle' style = {{fontSize: 26}}>Tooth Diagram</ThemedText>
+      </ThemedView>
+
       <Image
         source={require('@/assets/images/Teeth.jpg')}
         style = {styles.contentImage}
