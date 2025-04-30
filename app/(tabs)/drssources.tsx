@@ -31,7 +31,7 @@ export default function TabThreeScreen(){
       
       <Image 
         source={require('@/assets/images/dental_tray.jpg')}
-        style = {styles.contentImage}>
+      />
       </Image>
       </ParallaxScrollView>
     )
