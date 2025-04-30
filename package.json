@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "homepage": "https://gharrington112.github.io/cdareference-trainingapp/",
   "scripts": {
-    "predeploy": "npx expo export && Copy-Item -Path .\\dist\\* -Destination .\\docs -Recurse",
+    "predeploy": "xcopy /Y /I node_modules\\@expo\\vector-icons\\build\\vendor\\react-native-vector-icons\\Fonts\\MaterialIcons.ttf assets\\fonts\\ && npx expo export && xcopy -Path .\\dist\\* -Destination .\\docs -Recurse",
     "deploy": "echo 'Deploying to main branch.'",
     "start": "expo start",
     "reset-project": "node ./scripts/reset-project.js",
