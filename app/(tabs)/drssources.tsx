@@ -174,7 +174,7 @@ const styles = StyleSheet.create({
       position: 'absolute',
     },
     contentImage: {
-      width: 100%,
+      width: '100%',
       aspectRatio: 1.5,
       position: 'relative',
     },
