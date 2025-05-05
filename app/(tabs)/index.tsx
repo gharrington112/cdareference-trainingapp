@@ -24,6 +24,7 @@ export default function HomeScreen() {
         <ThemedText type="subtitle">Here's what you can do with this app: </ThemedText>
           <ThemedText>1. Select the "Drugs" icon to view some commonly used drugs in dentistry {"\n"} 
           2. Select the Resources Icon to review proper standards in dentistry as well as other review material
+          3. Select the Test icon to test your knowledge on various tests
         </ThemedText>
       </ThemedView>        
 
