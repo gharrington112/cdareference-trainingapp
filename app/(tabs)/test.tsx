@@ -44,7 +44,7 @@ export default function TabFourScreen() {
       <View style={styles.container}>
         <Text style={styles.title}>Select a Test</Text>
         <TouchableOpacity style={styles.button} onPress={() => router.push('/tests/test1')}>
-          <Text style={styles.buttonText}>Test 123232</Text>
+          <Text style={styles.buttonText}>Test 1</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.button} onPress={() => router.push('/tests/test2')}>
           <Text style={styles.buttonText}>Test 2</Text>
