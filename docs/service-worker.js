@@ -15,6 +15,7 @@ const urlsToCache = [
 
 // Install event: Cache core assets
 self.addEventListener("install", (event) => {
+  self.skipWaiting();
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
       return cache.addAll(urlsToCache);
@@ -43,6 +44,7 @@ self.addEventListener("fetch", (event) => {
 
 // Activate event: Delete old caches
 self.addEventListener("activate", (event) => {
+  self.clients.claim();
   event.waitUntil(
     caches.keys().then((cacheNames) => {
       return Promise.all(
