@@ -20,7 +20,7 @@ const imageMap: { [key: string]: any } = {
 
 const questions = [
   { // question 1
-    question: "In the universal lettering system for primary teeth, which letter stands for the maxillary left second molar?",
+    question: "In TEST the universal lettering system for primary teeth, which letter stands for the maxillary left second molar?",
     options: ["K", "J", "T", "C"],
     answer: "J"
   },
