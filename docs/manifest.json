@@ -1,6 +1,6 @@
 {
     "name": "Century Dental App",
-    "short_name": "CD App",
+    "short_name": "Century Dental App",
     "start_url": "/cdareference-trainingapp/",
     "display": "standalone",
     "background_color": "#ffffff",
@@ -8,12 +8,12 @@
     "description": "A reference training app for Century Dental Associates.",
     "icons": [
       {
-        "src": "/cdareference-trainingapp/assets/assets/images/centurydentallogo2.c056615264d9c4515d1c93cb0b91ccae.png",
+        "src": "/cdareference-trainingapp/assets/assets/images/pwaicon.png",
         "sizes": "192x192",
         "type": "image/png"
       },
       {
-        "src": "/cdareference-trainingapp/assets/assets/images/centurydentallogo2.c056615264d9c4515d1c93cb0b91ccae.png",
+        "src": "/cdareference-trainingapp/assets/assets/images/pwaicon.png",
         "sizes": "512x512",
         "type": "image/png"
       }
