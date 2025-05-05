@@ -45,7 +45,7 @@ const questions = [
       "can be stored in 100% relative humidity without serious dimensional changes for up to 24 hours",
       "shrink when stored in air with low humidity"
     ],
-    answer: "can be stored in 100% relative humidity without serious dimensional changes for up to 24 hours"
+    answer: "shrink when stored in air with low humidity"
   },
   
   { // question 79

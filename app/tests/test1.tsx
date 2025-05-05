@@ -47,7 +47,7 @@ const questions = [
   { // question 5
     question: "Which surgical procedure describes a hemisection?",
     options: ["removal of the apical portion of the root", "removal of diseased tissue through scraping with a curette", "removal of one or more roots of a multirooted tooth without removing the crown", "removal of the root and crown by cutting through each lengthwise"],
-    answer: "removal of diseased tissue through scraping with a curette"
+    answer: "removal of the root and crown by cutting through each lengthwise"
   },
   
   { // question 6
@@ -128,7 +128,7 @@ const questions = [
   { // question 18
     question: "A patient who displays symptoms of unconsciousness, increased body temperature, rapid heart beat, and increased blood pressure may be displaying symptoms of:",
     options: ["a petit mal seizure", "a grand mal seizure", "hypoglycemia", "hyperglycemia"],
-    answer: "hyperglycemia"
+    answer: "a grand mal seizure"
   },
 
   { // question 19
